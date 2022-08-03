@@ -1,0 +1,252 @@
+@charset "utf-8";
+
+
+html {
+	height: 100%;
+	font-size: 14px;
+}
+img{
+	max-width: 100%;
+}
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 81.9%;
+	padding-left: 4.55%;
+	padding-right: 4.55%;
+	clear: none;
+	float: none;
+	min-height: 100%;
+}
+nav {
+	width: 25%;
+	float: left;
+	margin: 6% 2% 0% 0%;
+}
+article {
+	width: 73%;
+	float: left;
+	font-size: 0.8em;
+	text-align: justify;
+}
+
+nav ul li {
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.8em;
+}
+
+nav ul li a {
+	background-color: #57BC90;
+	color: #222;
+	text-decoration: none;
+	display: block;
+	margin-bottom: 8%;
+}
+
+nav ul li a:hover {
+	background-color: #015249;
+	color: white;
+	
+}
+
+nav ul li a:focus {
+	outline: thin dotted;
+}
+nav ul li a:hover, nav ul li a:active {
+	outline: 0;
+}
+
+ul.countries li#mexico{
+	list-style-image: url(mexico_flag.png);
+}
+
+ul.countries li#thailand{
+	list-style-image: url(thailand_flag.png);
+}
+
+ul.countries li#canada{
+	list-style-image: url(canada_flag.png);
+}
+
+ul.countries li#colombia{
+	list-style-image: url(colombia_flag.png);
+}
+
+ul.countries li{
+	padding: 10px;
+	margin-left: 250px;
+	font-family: 'Poppins', sans-serif;
+}
+body h1 {
+	margin: 1%;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.5em;
+}
+
+body h2 {
+	margin: 1%;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.3em;
+}
+header img {
+	float: none;
+	width: 96%;
+	margin: 2% 2% 0% 2%;
+}
+body p, body address {
+	margin: 3.5% 1%;
+	font-size: 1em;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	height: 100%;
+}
+
+
+footer {
+	text-align: center;
+	font-size: 0.6em;
+	margin-top: 4%;
+	padding-bottom: 10px;
+	border-top: 3px solid #57BC90;
+	font-family: 'Poppins', sans-serif;
+	clear: both;
+	
+}
+
+aside.links{
+	float: left;
+	padding-bottom: 300px;
+	padding-right: 65px;
+}
+
+aside.links ul{
+	padding-left: 0px;
+}
+
+aside.links li{
+	margin-bottom: 20px;
+	font-family: 'Poppins', sans-serif;
+	background-color: #77C9D4;
+	border-radius: 7px;
+	border: 1px solid black;
+}
+
+aside.links li a{
+	font-size: .9em;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+aside.quote{
+	float: right;
+	width: 30%;
+	background-color: #77C9D4;
+	border-radius: 15px;
+	font-style: italic;
+}
+
+aside ul{
+	list-style-type: none;
+}
+div.contact{
+	padding-top: 10px;
+	text-align: center;
+}
+div.contact ul{
+	list-style-type: none;
+	font-family: 'Poppins', sans-serif;
+}
+
+div.contact ul li{
+	margin: 15px;
+}
+table.money{
+	float: right;
+	font-family: 'Poppins', sans-serif;
+	
+}
+table.money td{
+	padding-bottom: 15px;
+}
+
+@media only screen and (min-width: 481px) {
+html, body {
+	font-size: 16px;
+}
+
+body {
+	width: 89.9%;
+	padding-left: 1.55%;
+	padding-right: 1.55%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+
+
+article {
+	width: 94%;
+	float: none;
+	margin: 0px auto;
+}
+
+article img {
+	float: right;	
+}
+nav ul li {
+	display: table-cell;
+	width: 15%;
+	text-align: center;
+	margin-right: 2%;
+	border: thin solid black;
+	border-collapse: collapse;
+}
+nav ul li a {
+	margin-bottom: 0;
+	padding: 10px;
+}
+nav {
+	display: table;
+	width: 96%;
+	margin: 0 auto;
+	float: none;
+}
+nav ul {
+	display: table-row;
+	margin: 0;
+}
+nav ul li:last-of-type {
+	margin-right: 0%;
+}
+
+footer {
+	font-size: 0.9em;
+}
+}
+
+
+
+@media only screen and (min-width: 769px) {
+html, body {
+	font-size: 20px;
+}
+
+html {
+	background-color: #77C9D4;
+	margin: 0px auto;
+}
+body {
+	width: 88.2%;
+	max-width: 900px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: 0px auto auto auto;
+	clear: none;
+	float: none;
+	background-color: white;
+	-moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	-webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+}
+
+
+}

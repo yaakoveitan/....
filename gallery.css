@@ -1,0 +1,14 @@
+div.big{
+	float: left;
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+	height: 500px;
+}
+
+
+div.small img{
+	float: left;
+	width: 19%;
+	padding: 2px;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+	  <link href="styles.css" rel="stylesheet" />
+	  <link href="orderlayout.css" rel="stylesheet" />
+	  <script type="text/javascript" src="login.js" async></script>
+	  <script type="text/javascript" src="order.js" async></script>
+	
+      <title>Yaakovs Blog</title>
+
+   </head>
+
+   <body>
+      <header>
+	  
+		
+		<section id="loginsection">
+         <form id="loginForm" name="loginForm">
+            <label for="username">Username</label>
+            <input id="username" name="user" type="text" />
+            <label for="password">Password</label>
+            <input type="password" id="password" name="pwd" />
+			<input type="submit" id="login" value="login"/>
+         </form>
+		</section>
+		<img src="selfie.jpg" alt="The thug himself" />
+         <nav class="horizontal">       
+            <ul>
+               <li><a href="home.html">Home</a></li>
+               <li><a href="calendar.html">Calendar</a></li>
+               <li><a href="gallery.html">Gallery</a></li>
+               <li><a href="store.html">Store</a></li>
+               <li><a href="contact.html">Contact</a></li>
+            </ul>
+         </nav>  
+         
+		</header>
+
+    <article>
+		<h1>Buy pictures I took in cool places!</h1>
+		<form id="orderForm" name="orderForm" action="payment.html" method="get">
+		<section id="summary">
+			<div>
+				
+				<div class="frame">
+					<img src ="hawaii1.jpg" alt = ""/>
+					<select name="qty1" id="qty1">
+						<option value="0" selected>0</selected><option value="1">1</option>
+						<option value="2">2</option><option value="3">3</option>
+						<option value="4">4</option><option value="5">5</option><option value="6">6</option>
+						<option value="7">7</option><option value="8">8</option><option value="9">9</option>
+						<option value="10">10</option>
+					</select>
+					<h4>$5</h4>
+				</div>
+				<div class="frame">
+					<img src ="hawaii2.jpg" alt = ""/>
+					<select name="qty2" id="qty2">
+						<option value = "0" selected>0</selected><option value="1">1</option>
+						<option value="2">2</option><option value="3">3</option>
+						<option value="4">4</option><option value="5">5</option><option value="6">6</option>
+						<option value="7">7</option><option value="8">8</option><option value="9">9</option>
+						<option value="10">10</option>
+					</select>  
+					<h4>$7</h4>
+				</div>
+				<div class="frame">
+					<img src ="hawaii3.jpg" alt = ""/>
+					<select name="qty3" id="qty3">
+						<option value = "0" selected>0</selected><option value="1">1</option>
+						<option value="2">2</option><option value="3">3</option>
+						<option value="4">4</option><option value="5">5</option><option value="6">6</option>
+						<option value="7">7</option><option value="8">8</option><option value="9">9</option>
+						<option value="10">10</option>
+					</select>  
+					<h4>$10</h4>
+				</div>
+			
+			</div>
+			<div id="orderinfo">
+				<table class="money">
+					<tr>
+						<td>Subtotal</td>
+						<td><input type="text" name="subtotal" id="subtotal" size="10" readonly /></td>
+					</tr>
+					<tr>
+						<td>Sales Tax</td>
+						<td><input type="text" name="salesTax" id="salesTax" size="10" readonly /></td>
+					</tr>
+					<tr>
+						<td>Total</td>
+						<td><input type="text" name="totalCost" id="totalCost" size="10" readonly /></td>
+					</tr>
+					<tr>
+						<td></td><td><input type="submit" id="buttonAdd" value="Add to Cart"><td>
+					</tr>
+				</table>
+
+				
+			
+			</div>
+		</section>
+		</form>
+		
+		<section id="orderSection">
+			
+		</section>
+		 
+      </article>
+      
+      <footer>
+         <address>
+            Yaakovs swagger blog
+         </address>
+      </footer>
+   </body>
+
+</html>
